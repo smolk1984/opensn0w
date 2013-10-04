@@ -21,6 +21,7 @@ char *bootlogo = NULL;
 char *url = NULL;
 char *plist = NULL;
 char *ramdisk = NULL;
+char *boot_args = NULL;
 char *config_file = SYSCONFDIR "/opensn0w.conf";
 int iboot = false;
 int dry_run = false;

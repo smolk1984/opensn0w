@@ -5,6 +5,7 @@
 #include "core.h"
 
 config_file_t *config;
+extern char *boot_args;
 
 void loadmodules(config_file_entry_t * entry)
 {
@@ -121,13 +122,24 @@ void config_parse(config_file_entry_t * entries, int level)
                 p0 = (unsigned char*)patch_string;
                 if(t0s != p0s) {
                     printf("Patches must be the same size. Aborting.\n");
+                    exit(-1);
                 }
             } else if(orig_hex_bytes && patch_hex_bytes) {
                 hexToBytes(orig_hex_bytes, &t0, &t0s);
                 hexToBytes(patch_hex_bytes, &p0, &p0s);
                 if(t0s != p0s) {
                     printf("Patches must be the same size. Aborting.\n");
+                    exit(-1);
                 }
+            }
+            if (boot_args != NULL && !strcmp(name, "iBoot_gBootArgs")) {
+                printf("Overriding iBoot_gBootArgs with custom boot-args\n");
+                if (strlen(boot_args) > p0s) {
+                    printf("Custom boot-args too long. Aborting.\n");
+                    exit(-1);
+                }
+                memset(p0, ' ', p0s);
+                strncpy(p0, boot_args, strlen(boot_args));
             }
             if(!strcasecmp(type, "BootLoader"))
                 patch_node_add(name, t0, p0, t0s, architecture, global_os, patch_node_create(), iboot_patches);
