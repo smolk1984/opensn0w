@@ -17,6 +17,7 @@ extern char *bootlogo;
 extern char *url;
 extern char *plist;
 extern char *ramdisk;
+extern char *boot_args;
 extern char *config_file;
 extern int iboot;
 extern int dry_run;
@@ -68,7 +69,7 @@ int parse_options(int argc, char* argv[]) {
 			pwnrecovery = true;
 			break;
 		case 'a':
-			//boot_args_process(optarg);
+			boot_args = optarg;
 			break;
 		case 'X':
 			download = true;
