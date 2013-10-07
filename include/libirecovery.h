@@ -71,6 +71,7 @@ typedef struct __apple_usb_context {
 #define CPID_IPOD4G       8930
 #define CPID_APPLETV2     8930
 #define CPID_IPHONE42     8930
+#define CPID_IPHONE43     8930
 
 #define BDID_UNKNOWN        -1
 #define BDID_IPHONE2G        0
@@ -84,6 +85,7 @@ typedef struct __apple_usb_context {
 #define BDID_IPOD4G          8
 #define BDID_APPLETV2       10
 #define BDID_IPHONE42        6
+#define BDID_IPHONE43        4
 
 #define DEVICE_UNKNOWN      -1
 #define DEVICE_IPHONE2G      0
@@ -97,6 +99,7 @@ typedef struct __apple_usb_context {
 #define DEVICE_IPOD4G        8
 #define DEVICE_APPLETV2      9
 #define DEVICE_IPHONE42     10
+#define DEVICE_IPHONE42     11
 
 	enum {
 		kRecoveryMode1 = 0x1280,
@@ -219,6 +222,9 @@ typedef struct __apple_usb_context {
 		{
 		10, "iPhone3,3", "n92ap", 6, 8930,
 			    "http://appldnld.apple.com/iPhone4/041-0177.20110131.Pyvrz/iPhone3,3_4.2.6_8E200_Restore.ipsw", "iPhone 4 (CDMA)"},
+		{
+		11, "iPhone3,2", "n90bap", 4, 8930,
+			    "http://appldnld.apple.com/iPhone4/041-0177.20110131.Pyvrz/iPhone3,3_4.2.6_8E200_Restore.ipsw", "iPhone 4 (GSMr2)"},
 		{
 		-1, NULL, NULL, -1, -1, NULL}
 	};
