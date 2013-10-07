@@ -99,7 +99,7 @@ typedef struct __apple_usb_context {
 #define DEVICE_IPOD4G        8
 #define DEVICE_APPLETV2      9
 #define DEVICE_IPHONE42     10
-#define DEVICE_IPHONE42     11
+#define DEVICE_IPHONE43     11
 
 	enum {
 		kRecoveryMode1 = 0x1280,
