@@ -52,9 +52,9 @@
 			<key>FileName</key>
 			<string>Firmware/dfu/iBSS.k66ap.RELEASE.dfu</string>
 			<key>IV</key>
-			<string>523a895b29cf2c2b169465f88c8df2e</string>
+			<string>523a8995b29cf2c2b169465f88c8df2e</string>
 			<key>Key</key>
-			<string>693f5bd587ef8e6247cabbfb428fddebea3ad5d40eb68a0970562c5019ec004f</string>
+			<string>86ad5131a0d20df03e051d33f60c3df6c881184d23d8916cde647bbe5f94da40</string>
 		</dict>
 		<key>KernelCache</key>
 		<dict>
@@ -72,7 +72,7 @@
 			<key>IV</key>
 			<string>99742ec8d53a0c01cf52b0f3ea9f6f10</string>
 			<key>Key</key>
-			<string>6d26be8994a96d1dd542392fbd04b6d856fcd11d3765023a3727a2dac9102d7</string>
+			<string>6d26be8994a96d1dd542392fbd04b6d856fcd11d37650223a3727a2dac9102d7</string>
 		</dict>
 		<key>RecoveryMode</key>
 		<dict>
