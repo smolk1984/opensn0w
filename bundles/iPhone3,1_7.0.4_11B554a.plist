@@ -52,9 +52,9 @@
 			<key>FileName</key>
 			<string>Firmware/all_flash/all_flash.n90ap.production/batterylow0@2x~iphone.s5l8930x.img3</string>
 			<key>IV</key>
-			<string>6add29dcb2f6b5e7e2c0f4a1c887adbd</string>
+			<string>84cb0a87b10b3c2407c8a8844a5064e0</string>
 			<key>Key</key>
-			<string>0321839ad6468bdf7a66029f7cfd91ff60114e1bdd971c87f056a4fcee963fdc</string>
+			<string>7b0d1483fc5762dab0213ab10f81280866d19d0fc7af75f5c7d1fc1d1f4b51ff</string>
 		</dict>
 		<key>BatteryLow1</key>
 		<dict>
