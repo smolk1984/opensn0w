@@ -244,6 +244,11 @@ irecv_error_t mobiledevice_connect(irecv_client_t * client)
 	}
 	SetupDiDestroyDeviceInfoList(usbDevices);
 	free(path);
+	
+	if (_client->DfuPath == NULL && _client->iBootPath == NULL) {
+		free(_client);
+		return IRECV_E_UNABLE_TO_CONNECT;
+	}
 
 	ret = mobiledevice_openpipes(_client);
 	if (ret != IRECV_E_SUCCESS)

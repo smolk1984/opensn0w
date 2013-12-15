@@ -150,7 +150,7 @@ extern "C" {
 		closeFunc close;
 	} io_func;
 
-#ifdef _MSC_VER
+#if defined(WIN32) || defined(_MSC_VER)
 #define ATTRIBUTE_PACKED
 #pragma pack(push)
 #pragma pack(1)
