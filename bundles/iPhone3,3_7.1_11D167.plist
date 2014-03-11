@@ -5,7 +5,7 @@
 	<key>FirmwareInfo</key>
 	<dict>
 		<key>URL</key>
-		<string>http://appldnld.apple.com/iOS7.1/031-4639.20140310.Pvdbt/iPhone3,1_7.1_11D169_Restore.ipsw</string>
+		<string>http://appldnld.apple.com/iOS7.1/031-4333.20140310.ZXCj3/iPhone3,3_7.1_11D167_Restore.ipsw</string>
 		<key>Version</key>
 		<string>7.1</string>
 	</dict>
@@ -14,7 +14,7 @@
 		<key>AppleLogo</key>
 		<dict>
 			<key>FileName</key>
-			<string>Firmware/all_flash/all_flash.n90ap.production/applelogo@2x~iphone.s5l8930x.img3</string>
+			<string>Firmware/all_flash/all_flash.n92ap.production/applelogo@2x~iphone.s5l8930x.img3</string>
 			<key>IV</key>
 			<string>e207bd2bb14ef48628cfc4809ef93e4b</string>
 			<key>Key</key>
@@ -23,7 +23,7 @@
 		<key>BatteryCharging0</key>
 		<dict>
 			<key>FileName</key>
-			<string>Firmware/all_flash/all_flash.n90ap.production/batterycharging0@2x~iphone.s5l8930x.img3</string>
+			<string>Firmware/all_flash/all_flash.n92ap.production/batterycharging0@2x~iphone.s5l8930x.img3</string>
 			<key>IV</key>
 			<string>12c6df1a6876213f0e95acf3a0c936a6</string>
 			<key>Key</key>
@@ -32,7 +32,7 @@
 		<key>BatteryCharging1</key>
 		<dict>
 			<key>FileName</key>
-			<string>Firmware/all_flash/all_flash.n90ap.production/batterycharging1@2x~iphone.s5l8930x.img3</string>
+			<string>Firmware/all_flash/all_flash.n92ap.production/batterycharging1@2x~iphone.s5l8930x.img3</string>
 			<key>IV</key>
 			<string>38a2f1e5ad9445794234a5458c4d779b</string>
 			<key>Key</key>
@@ -41,7 +41,7 @@
 		<key>BatteryFull</key>
 		<dict>
 			<key>FileName</key>
-			<string>Firmware/all_flash/all_flash.n90ap.production/batteryfull@2x~iphone.s5l8930x.img3</string>
+			<string>Firmware/all_flash/all_flash.n92ap.production/batteryfull@2x~iphone.s5l8930x.img3</string>
 			<key>IV</key>
 			<string>dca76eee01f480fa1d6ac6aa919c425e</string>
 			<key>Key</key>
@@ -50,7 +50,7 @@
 		<key>BatteryLow0</key>
 		<dict>
 			<key>FileName</key>
-			<string>Firmware/all_flash/all_flash.n90ap.production/batterylow0@2x~iphone.s5l8930x.img3</string>
+			<string>Firmware/all_flash/all_flash.n92ap.production/batterylow0@2x~iphone.s5l8930x.img3</string>
 			<key>IV</key>
 			<string>1b7600a8e2ac590e70b68b5d8cb63adc</string>
 			<key>Key</key>
@@ -59,7 +59,7 @@
 		<key>BatteryLow1</key>
 		<dict>
 			<key>FileName</key>
-			<string>Firmware/all_flash/all_flash.n90ap.production/batterylow1@2x~iphone.s5l8930x.img3</string>
+			<string>Firmware/all_flash/all_flash.n92ap.production/batterylow1@2x~iphone.s5l8930x.img3</string>
 			<key>IV</key>
 			<string>0059c7ab08e15104f4cb8b3b2fd86e9c</string>
 			<key>Key</key>
@@ -68,23 +68,23 @@
 		<key>DeviceTree</key>
 		<dict>
 			<key>FileName</key>
-			<string>Firmware/all_flash/all_flash.n90ap.production/DeviceTree.n90ap.img3</string>
+			<string>Firmware/all_flash/all_flash.n92ap.production/DeviceTree.n92ap.img3</string>
 			<key>IV</key>
-			<string>91cc1bc9c4f5916fb5e2f9e79757204e</string>
+			<string>8ccd4976c3ceff11797952b6bc5d11b1</string>
 			<key>Key</key>
-			<string>600727bdf1763a06828311112fbcabf2ae7b3d47e8a28dd90977bc2ec7e89ec</string>
+			<string>0e497757998788fb7aad057c41c7fa255068c7f5d64b67d434500c932620e8dc</string>
 		</dict>
 		<key>FileSystem</key>
 		<dict>
 			<key>FileName</key>
-			<string>058-4520-002.dmg</string>
+			<string>058-4110-001.dmg</string>
 			<key>VFDecryptKey</key>
-			<string>7aa3a515804a8c256da56c065ff28db9150c8ee3898a4525ab2c40100d1bb0ff8b287e78</string>
+			<string>26ee278e33a33d15d1087210704e7cb420504eb41f346f878fd84c11276edc199a42ed1c</string>
 		</dict>
 		<key>GlyphPlugin</key>
 		<dict>
 			<key>FileName</key>
-			<string>Firmware/all_flash/all_flash.n90ap.production/glyphplugin@2x~iphone-30pin.s5l8930x.img3</string>
+			<string>Firmware/all_flash/all_flash.n92ap.production/glyphplugin@2x~iphone-30pin.s5l8930x.img3</string>
 			<key>IV</key>
 			<string>9bc7ec89e66bb12b17aeafaa368abede</string>
 			<key>Key</key>
@@ -93,25 +93,25 @@
 		<key>KernelCache</key>
 		<dict>
 			<key>FileName</key>
-			<string>kernelcache.release.n90</string>
+			<string>kernelcache.release.n92</string>
 			<key>IV</key>
-			<string>6aef6cac733cae81e66269cc3eff4f9c</string>
+			<string>4fa0480efb2cececce63d67fd53cc4ed</string>
 			<key>Key</key>
-			<string>9faac3ffc914e18d1d6a01073d89b051822c389ce6c25fa836c8a4550a0e4bed</string>
+			<string>c77c73affdf7994124dbae399bef653cbb0468a6b5daefd6ae6a18af9fa2c4b6</string>
 		</dict>
 		<key>LLB</key>
 		<dict>
 			<key>FileName</key>
-			<string>Firmware/all_flash/all_flash.n90ap.production/LLB.n90ap.RELEASE.img3</string>
+			<string>Firmware/all_flash/all_flash.n92ap.production/LLB.n92ap.RELEASE.img3</string>
 			<key>IV</key>
-			<string>5f0e306c582f54b66990eaae357a51b0</string>
+			<string>8aababd252977cacfe7c5705959c0864</string>
 			<key>Key</key>
-			<string>70caa5a113d1e283c15b282d45df370f4e5db0750b352c1b6342e81a358ea9b4</string>
+			<string>fc424bb220a4805ae88b4b179334c18696229364a8416c85399d5ff0cb1ca7bd</string>
 		</dict>
 		<key>RecoveryMode</key>
 		<dict>
 			<key>FileName</key>
-			<string>Firmware/all_flash/all_flash.n90ap.production/recoverymode@2x~iphone-30pin.s5l8930x.img3</string>
+			<string>Firmware/all_flash/all_flash.n92ap.production/recoverymode@2x~iphone-30pin.s5l8930x.img3</string>
 			<key>IV</key>
 			<string>9d599763f090db2c53e9bdb23f9e2200</string>
 			<key>Key</key>
@@ -120,29 +120,29 @@
 		<key>iBEC</key>
 		<dict>
 			<key>FileName</key>
-			<string>Firmware/dfu/iBEC.n90ap.RELEASE.dfu</string>
+			<string>Firmware/dfu/iBEC.n92ap.RELEASE.dfu</string>
 			<key>IV</key>
-			<string>b3cc19dfe3f44987ef84d56e18396cfa</string>
+			<string>6a1a43d63202563841b9c6b42b53a9bd</string>
 			<key>Key</key>
-			<string>28a96dac939f217bb835dc94d32163b05abe7d1f8a4a8273a3f5eb2a89a74eec</string>
+			<string>998c4af0ef2fb4b85ea58856339fe8bc19adf99c559a4b42c584dcabf162f781</string>
 		</dict>
 		<key>iBSS</key>
 		<dict>
 			<key>FileName</key>
-			<string>Firmware/dfu/iBSS.n90ap.RELEASE.dfu</string>
+			<string>Firmware/dfu/iBSS.n92ap.RELEASE.dfu</string>
 			<key>IV</key>
-			<string>6073dcb7441392f4f3a882e7d0b8b398</string>
+			<string>b5bcec560870cd4d4781e6f6a3a02517</string>
 			<key>Key</key>
-			<string>109ae12f073401f16aa19cc87b223335e2aa6a603a53e1022fb1ce904000a091</string>
+			<string>9eb7f90102ec5b377cdc86a7d95396b52afb29e289684649d1a1e1d131e0c620</string>
 		</dict>
 		<key>iBoot</key>
 		<dict>
 			<key>FileName</key>
-			<string>Firmware/all_flash/all_flash.n90ap.production/iBoot.n90ap.RELEASE.img3</string>
+			<string>Firmware/all_flash/all_flash.n92ap.production/iBoot.n92ap.RELEASE.img3</string>
 			<key>IV</key>
-			<string>9fe5b6785126c8fc5787582df9efcf94</string>
+			<string>42fbdd25a1885bde16ff1213118dea83</string>
 			<key>Key</key>
-			<string>b68612f21e377bd1f685e9031be159a724e931eff162db245c63b7b692cefa7e</string>
+			<string>48ebd367f49cea2377f5b368e0c148aaf84a8378bec67a720c4e3a885be19577</string>
 		</dict>
 	</dict>
 </dict>
